@@ -8,7 +8,6 @@ body:
       description: Can you describe this problem?
     validations:
       required: true
-
   - type: textarea
     id: explanation
     attributes:
@@ -16,7 +15,6 @@ body:
       description: Can you provide examples of where you've observed this problem?
     validations:
       required: true
-
   - type: textarea
     id: potential-causes
     attributes:
@@ -24,9 +22,8 @@ body:
       description: Can you explain why this problem is happening?
     validations:
       required: true
-
   - type: textarea
     id: possible-strategies
     attributes:
-      label: Explain it
-      description: Are there any known strategies for approaching this problem?
+      label: Suggest strategies
+      description: Can you identify any potential strategies for approaching this problem?
