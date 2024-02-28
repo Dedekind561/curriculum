@@ -25,5 +25,5 @@ body:
   - type: textarea
     id: possible-strategies
     attributes:
-      label: Suggest strategies
+      label: 🧭 Suggest strategies
       description: Can you identify any potential strategies for approaching this problem?
