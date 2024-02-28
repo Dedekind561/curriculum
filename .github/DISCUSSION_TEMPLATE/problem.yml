@@ -8,7 +8,6 @@ body:
       description: Can you describe this problem?
     validations:
       required: true
-
   - type: markdown
     id: Explanation
     attributes:
@@ -16,7 +15,6 @@ body:
       description: Can you provide examples of where you've observed this problem?
     validations:
       required: true
-
   - type: markdown
     id: Potential causes
     attributes:
@@ -24,7 +22,6 @@ body:
       description: Can you explain why this problem is happening?
     validations:
       required: true
-
   - type: markdown
     id: Possible strategies
     attributes:
