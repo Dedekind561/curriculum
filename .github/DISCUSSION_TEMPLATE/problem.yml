@@ -6,22 +6,28 @@ body:
     attributes:
       label: Define it
       description: Can you describe this problem?
+      value: ""
     validations:
       required: true
+
   - type: markdown
     id: Explanation
     attributes:
       label: Exemplify it?
       description: Can you provide examples of where you've observed this problem?
+      value: ""
     validations:
       required: true
+
   - type: markdown
     id: Potential causes
     attributes:
       label: Explain it
       description: Can you explain why this problem is happening?
+      value: ""
     validations:
       required: true
+
   - type: markdown
     id: Possible strategies
     attributes:
